@@ -1,5 +1,5 @@
 module.exports = {
-  assetPrefix: process.env.CI ? "/blog/" : "",
+  assetPrefix: "/blog/",
   images: {
     unoptimized: true,
   },

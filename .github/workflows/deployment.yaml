@@ -11,9 +11,6 @@ jobs:
   deployment:
     runs-on: ubuntu-latest
 
-    env:
-      NODE_ENV: production
-
     steps:
       - uses: actions/checkout@v3
 

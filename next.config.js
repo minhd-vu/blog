@@ -3,6 +3,7 @@ module.exports = {
   images: {
     unoptimized: true,
   },
+  basePath: "/blog",
   output: "export",
   distDir: "out",
 };

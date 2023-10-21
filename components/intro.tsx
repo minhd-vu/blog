@@ -7,7 +7,7 @@ const Intro = () => {
         Minh<span>imum</span> Effort
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        Minh's catch all blog for the lazy software engineer made with{" "}
+        Minh's catch-all blog for the lazy software engineer made with{" "}
         <a
           href="https://nextjs.org/"
           className="underline hover:text-blue-600 duration-200 transition-colors"

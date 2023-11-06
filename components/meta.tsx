@@ -34,6 +34,10 @@ const Meta = () => {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta name="description" content={"Minhimum Effort"} />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+      <meta
+        name="google-site-verification"
+        content="tuzr6XtiN8FWYcTN54Uj0ZBeWEbU1F5_c8F3A3uDdfo"
+      />
     </Head>
   );
 };

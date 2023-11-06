@@ -19,7 +19,7 @@ type Props = {
 
 export default function Post({ post, morePosts, preview }: Props) {
   const router = useRouter();
-  const title = `${post.title} | Minhimum Effort Blog`;
+  const title = `${post.title} | Minhimum Effort`;
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
   }

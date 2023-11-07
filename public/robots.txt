@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://minhimum-effort.vercel.app/
+
+# Sitemaps
+Sitemap: https://minhimum-effort.vercel.app/sitemap.xml

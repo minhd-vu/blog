@@ -1,17 +1,17 @@
 ---
 title: "My Everyday Carry (EDC)"
 excerpt: "I'm a pretty minimalist person when it comes to EDC, so I'll walk you through some of the things I carry and why I chose to carry them."
-coverImage: "/assets/blog/edc/goat-tools.jpg"
+coverImage: "/assets/blog/edc/goat-tools.jpeg"
 date: "2023-09-08"
 ogImage:
-  url: "/assets/blog/edc/goat-tools.jpg"
+  url: "/assets/blog/edc/goat-tools.jpeg"
 ---
 
 I'm a pretty minimalist and lazy person when it comes to carrying things. I try to limit it to things that I absolutely need. Let's start with the basics: my wallet, keys, and phone.
 
 For my wallet, I use a Big Skinny nylon bifold for my wallet because it's a very slim wallet. I made this switch recently. Before this, I had a leather bifold that was a little bulkier. I had that for as long as I can remember. I try to keep it as light as possible, only really at most keeping two credit cards, insurance information, IDs, and some cash. I considered switching to something more minimalistic like a card holder, but since I always carry cash, I didn't think it would be feasible. I also carry my wallet in my front pocket, where a thicker wallet may be more visible.
 
-![Wallet & Keys](/assets/blog/edc/wallet-keys.jpg)
+![Wallet & Keys](/assets/blog/edc/wallet-keys.jpeg)
 
 For my keys, I only keep my car key fob on the lower half portion of a sentimental lanyard. I have my gym key fob on it too, but this will likely be removed once my membership expires. Honestly, I rarely go to the gym, I'd rather play a sport for exercise.
 
@@ -25,7 +25,7 @@ Later, I wanted to use a multi-tool rather than just a knife, so I grabbed a SOG
 
 During this time I was a backer of the GOAT multi-tool on Indiegogo, and once I finally received it, I instantly fell in love with the tool. Because it's modular, the implements can be swapped around for an ideal configuration. I immediately started fiddling with it and making improvements to the tool to better fit my needs. I immediately swapped out the default blade for the 35VN one and because it also includes a hobby blade, it was perfect for both tasks that required a larger edge or more precision. I moved the blade over to be left-hand openable, removed the pocket clip, and reordered some of the middle implements. I also added some shims between the implements to decrease the clumping that happens when opening one tool. Overall, I enjoy using the GOAT multi-tool, and I think I have it in a configuration that perfectly fits my needs. The only issue I have is sometimes it can be hard to get enough leverage to open the blade. I designed a thumb stud of sorts with CAD, but I haven't gotten the chance to print it because my 3D printer is broken.
 
-![Backpack](/assets/blog/edc/backpack.jpg)
+![Backpack](/assets/blog/edc/backpack.jpeg)
 
 My EDC also consists of my backpack. Usually, if I'm not carrying things in just my pockets or a drawstring, then I'll take my entire backpack. My backpack was a gift from my mom in my sophomore year of high school. It's a North Face Surge, and it's still going strong after all these years. My philosophy on tools that I use is that the only reason you should upgrade is if you're missing a significant amount of functionality. I think it's more resourceful, and it's fun coming up with creative solutions to some shortcomings in products. I'll give you a tour of what goes inside my backpack, and then I'll show you some modifications I made for it to better fit my needs.
 

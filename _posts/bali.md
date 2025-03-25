@@ -41,7 +41,7 @@ _These first couple of photos are from the Grand Hyatt Bali, the resort where I 
 ![DSCF0662](/assets/blog/bali/DSCF0662.jpg)
 
 ![DSCF0674](/assets/blog/bali/DSCF0674.jpg)
-_This is a template at the resort._
+_This is a temple at the resort._
 
 ![DSCF0683](/assets/blog/bali/DSCF0683.jpg)
 _These are some images of the view from the beach adjacent to the resort. It was currently low tide, so you could see some of the rocks._

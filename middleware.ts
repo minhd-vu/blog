@@ -11,7 +11,7 @@ const facilitatorClient = new HTTPFacilitatorClient({
 const server = new x402ResourceServer(facilitatorClient);
 registerExactEvmScheme(server);
 
-export default paymentProxy(
+export const middleware = paymentProxy(
   {
     "/posts/:path*": {
       accepts: [

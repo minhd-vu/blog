@@ -5,7 +5,7 @@ import { registerExactEvmScheme } from "@x402/evm/exact/server";
 const payTo = process.env.X402_WALLET_ADDRESS!;
 
 const facilitatorClient = new HTTPFacilitatorClient({
-  url: "https://x402.org/facilitator", // public facilitator (no auth required)
+  url: "https://facilitator.payai.network", // public facilitator with mainnet support
 });
 
 const server = new x402ResourceServer(facilitatorClient);

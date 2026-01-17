@@ -1,6 +1,7 @@
 import { paymentProxy } from "@x402/next";
 import { x402ResourceServer, HTTPFacilitatorClient } from "@x402/core/server";
 import { ExactEvmScheme } from "@x402/evm/exact/server";
+import { NextRequest, NextResponse } from "next/server";
 
 const payTo = process.env.X402_WALLET_ADDRESS!;
 
@@ -24,7 +25,14 @@ evmScheme.registerMoneyParser(async (amount, network) => {
 const server = new x402ResourceServer(facilitatorClient);
 server.register("eip155:*", evmScheme);
 
-export default paymentProxy(
+// Check if request is from a regular browser (not an AI agent)
+function isBrowser(req: NextRequest): boolean {
+  const accept = req.headers.get("accept") || "";
+  const userAgent = req.headers.get("user-agent") || "";
+  return accept.includes("text/html") && userAgent.includes("Mozilla");
+}
+
+const x402Proxy = paymentProxy(
   {
     "/posts/*": {
       accepts: [
@@ -47,6 +55,14 @@ export default paymentProxy(
   },
   server
 );
+
+// Let browsers through for free, only charge AI agents
+export default async function proxy(req: NextRequest) {
+  if (isBrowser(req)) {
+    return NextResponse.next();
+  }
+  return x402Proxy(req);
+}
 
 export const config = {
   matcher: ["/posts/:path*"],

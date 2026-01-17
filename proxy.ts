@@ -32,10 +32,7 @@ export default paymentProxy(
       mimeType: "text/html",
     },
   },
-  server,
-  undefined, // paywallConfig
-  undefined, // paywall
-  false // syncFacilitatorOnStart - disable to avoid init errors
+  server
 );
 
 export const config = {

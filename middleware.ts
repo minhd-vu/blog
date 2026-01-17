@@ -32,7 +32,10 @@ export const middleware = paymentProxy(
       mimeType: "text/html",
     },
   },
-  server
+  server,
+  undefined, // paywallConfig
+  undefined, // paywall
+  false // syncFacilitatorOnStart - disable to avoid init errors
 );
 
 export const config = {

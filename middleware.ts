@@ -13,7 +13,7 @@ registerExactEvmScheme(server);
 
 export const middleware = paymentProxy(
   {
-    "/posts/:path*": {
+    "/posts/*": {
       accepts: [
         {
           scheme: "exact",

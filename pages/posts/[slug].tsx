@@ -10,6 +10,7 @@ import PostTitle from "../../components/post-title";
 import Head from "next/head";
 import markdownToHtml from "../../lib/markdownToHtml";
 import type PostType from "../../interfaces/post";
+import type { GetServerSidePropsContext } from "next";
 
 type Props = {
   post: PostType;
@@ -51,14 +52,9 @@ export default function Post({ post, morePosts, preview }: Props) {
   );
 }
 
-type Params = {
-  params: {
-    slug: string;
-  };
-};
-
-export async function getStaticProps({ params }: Params) {
-  const post = getPostBySlug(params.slug, [
+export async function getServerSideProps({ params }: GetServerSidePropsContext) {
+  const slug = params?.slug as string;
+  const post = getPostBySlug(slug, [
     "title",
     "date",
     "slug",
@@ -76,20 +72,5 @@ export async function getStaticProps({ params }: Params) {
         content,
       },
     },
-  };
-}
-
-export async function getStaticPaths() {
-  const posts = getAllPosts(["slug"]);
-
-  return {
-    paths: posts.map((post) => {
-      return {
-        params: {
-          slug: post.slug,
-        },
-      };
-    }),
-    fallback: false,
   };
 }

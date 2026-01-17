@@ -14,20 +14,12 @@ registerExactEvmScheme(server);
 export default paymentProxy(
   {
     "/posts/*": {
-      accepts: [
-        {
-          scheme: "exact",
-          price: "$0.01",
-          network: "eip155:8453", // Base mainnet
-          payTo,
-        },
-        {
-          scheme: "exact",
-          price: "$0.01",
-          network: "eip155:137", // Polygon mainnet
-          payTo,
-        },
-      ],
+      accepts: {
+        scheme: "exact",
+        price: "$0.01",
+        network: "eip155:8453", // Base mainnet
+        payTo,
+      },
       description: "Blog post content",
       mimeType: "text/html",
     },
